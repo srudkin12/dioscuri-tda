@@ -1,0 +1,5 @@
+numpy
+matplotlib
+scipy
+scikit-learn
+gudhi==3.3.0
