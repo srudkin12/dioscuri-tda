@@ -2,4 +2,9 @@ numpy
 matplotlib
 scipy
 scikit-learn
+kmapper
+python-igraph
+plotly
+ipywidgets
+umap-learn
 gudhi==3.3.0

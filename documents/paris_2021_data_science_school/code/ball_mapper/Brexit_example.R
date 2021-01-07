@@ -18,7 +18,7 @@ tories <- BallMapper(db104,as.data.frame(dt1$cm17),18)
 #In this case we color the graph by support for Brexit in 2016 referendum.
 ColorIgraphPlot(brexit,seed_for_plotting=1)
 
-%In this case we color the graph by support for Labour party in 2017 election.
+#In this case we color the graph by support for Labour party in 2017 election.
 ColorIgraphPlot(labour,seed_for_plotting=1)
 
 %In this case we color the graph by support for Conservative party in 2017 election.
