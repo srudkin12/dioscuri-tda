@@ -22,11 +22,11 @@
       <div id="menubar">
         <ul id="menu">
           <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li class="selected"><a href="index.html">Home</a></li>
-		  <li><a href="members.html">Members</a></li>
-          <li><a href="publications.html">Publications</a></li>
+          <li><a href="index.html">Home</a></li>
+		      <li><a href="members.html">Members</a></li>
+          <li class="selected"><a href="publications.html">Publications</a></li>
           <li><a href="conferences.html">Conferences</a></li>
-		  <li><a href="seminars.html">Seminars</a></li>
+		      <li><a href="seminars.html">Seminars</a></li>
           <li><a href="outreach.html">Outreach</a></li>
           <li><a href="positions.html">Positions</a></li>
         </ul>
@@ -35,13 +35,29 @@
     <div id="site_content">
       <div class="sidebar">
         <!-- insert your sidebar items here -->
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="https://www.impan.pl/">Institute of Mathematics</a></li>
+          <li><a href="https://www.alta.uni-bremen.de/">ALTA Institute</a></li>
+          <li><a href="https://www.mpg.de/en">Max Planck Society</a></li>
+        </ul>
+        <a class="twitter-timeline" data-tweet-limit="3"
+            data-dnt="True"
+            href="https://twitter.com/DioscuriTda?ref_src=twsrc%5Etfw">Tweets by DioscuriTda</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
       </div>
-	  
+
       <div id="content">
-     
+
      <p>
 		<h1>Journal publications:</h1>
 		<ol>
+                <li>
+                A.D. Smith, P. Dłotko, V.M. Zavala, Topological data analysis: Concepts, computation, and applications in chemical engineering, Computers and Chemical Engineering, 2021, 146, 107202.
+                </li>
+                <li>
+                Q.W., Rudkin, S. Rudkinm P. Dłotko, Refining understanding of corporate failure through a topological data analysis mapping of Altman's Z-score model, Expert Systems with Applications, 2020, 156, 113475.
+                </li>
 		<li>
 		B. Zielinski, M. Lipinski, M. Juda, M. Zeppelzauer, P. Dlotko, Persistence Codebooks for Topological Data Analysis, Artificial Intelligence Review, Accepted.
 		</li>
@@ -49,17 +65,44 @@
 		<h1>Conference papers:</h1>
 		<ol>
 		<li>
-		TBA
+		Ciara Frances Loughrey, Nick Orr, Anna Jurek-Loughrey, Paweł Dłotko, <a href="https://arxiv.org/abs/2012.01868">Hotspot identification for Mapper graphs</a>
 		</li>
 		</ol>
 		<h1>Software libraries:</h1>
 		<ol>
 		<li>
-			An experimental implementation of the Prokhorov metric for persistence diagrams can be found at <a href ="https://github.com/nihell/gudhi-devel/tree/some-fancy-name">github</a>. 
-			Questions and comments are welcome and should be directed to Niklas.
+
+    <a href="https://cran.r-project.org/web/packages/BallMapper/index.html">R BallMapper</a>: R implementation of
+    the Ball Mapper algorithm described in "Ball mapper: a shape summary for topological data analysis" by Pawel Dlotko,
+    (2019) <a href="https://arxiv.org/abs/1901.07410">arXiv:1901.07410</a>. Please consult the following
+    <a href="https://www.youtube.com/watch?v=M9Dm1nl_zSQfor">youtube video</a> the idea of functionality. Ball Mapper
+    provides a topologically
+    accurate summary of a data in a form of an abstract graph.
+
 		</li>
+    <li>
+    <a href="https://github.com/dgurnari/pyBallMapper">PyBallMapper</a>: Python implementation of
+    the Ball Mapper algorithm that can be run in a Jupyter notebook. Allows to plot the resulting graphs using Matplotlib
+    or Bokeh.
+    </li>
+    <li>
+    <a href="https://github.com/dgurnari/mapper_GUI">Mapper GUI</a>: Python code to interactively compare two Ball Mapper
+    graphs as described <a href="https://raw.githubusercontent.com/dgurnari/mapper_GUI/master/Mapping_Mappers.pdf">here</a>.
+    A short video example can be found on <a href="https://youtu.be/umSQt03kpPA">youtube</a>.
+    </li>
+    <li>
+    <a href="https://github.com/dgurnari/ECC/tree/tests">ECC</a>: Python code to compute the Euler Characteristic Curve
+    of a filtered Vietoris-Rips complex. A pipeline for parallel computations using GNU Parallel is also provided.
+    For a theoretical introduction and a description of the algorithm please watch <a href="https://www.youtube.com/watch?v=mI3Dq5ay9cQ">Davide's talk</a> at
+    the Second Symposium on Machine Learning and Dynamical Systems.
+    </li>
+	<li>
+	<a href ="https://github.com/nihell/gudhi-devel/tree/some-fancy-name">Prokhorov metric</a>: A fork of gudhi implementing the Prokhorov metric for persistence diagrams. 
+	Pease watch <a href="https://www.youtube.com/watch?v=fnQ7Xwcr_yM&list=PLArBKNfJxuul1xNA4tFfu4ouEmeBMeBmg&index=4">Niklas's talks</a> at
+    the Second Symposium on Machine Learning and Dynamical Systems for the theoretical background.
+	</li>
 		</ol>
-     </p>  
+     </p>
 
       </div>
     </div>
@@ -71,9 +114,9 @@
 <!-- Default Statcounter code for Dioscuri-tda.org
 https://dioscuri-tda.org/ -->
 <script type="text/javascript">
-var sc_project=12325532; 
-var sc_invisible=0; 
-var sc_security="a77028f7"; 
+var sc_project=12325532;
+var sc_invisible=0;
+var sc_security="a77028f7";
 var scJsHost = "https://";
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+

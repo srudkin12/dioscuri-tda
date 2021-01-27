@@ -1,0 +1,13 @@
+numpy
+pandas
+networkx
+matplotlib
+scipy
+scikit-learn
+kmapper
+python-igraph
+plotly
+ipywidgets
+bokeh>=2.2.2
+umap-learn
+gudhi==3.3.0
