@@ -10,4 +10,4 @@ plotly
 ipywidgets
 bokeh>=2.2.2
 umap-learn
-gudhi==3.3.0
+gudhi
