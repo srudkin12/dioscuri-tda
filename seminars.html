@@ -37,9 +37,9 @@
         <!-- insert your sidebar items here -->
         <h3>Next seminar:</h3>
 
-        <h4>03/11/2021, 12:15 pm</h4>
-        <h5>Davide Gurnari: </h5>
-        <p><a href="#03-11-2021">Distributed algorithms for Euler Characteristic Curves<br/>
+        <h4>??/11/2021, 12:15 pm</h4>
+        <h5>Niklas Hellmer: </h5>
+        <p><a href="#??-11-2021">tba<br/>
 </a></p>
         <!--
 		<p></p>
@@ -81,17 +81,28 @@
 		If you are interested in research talks by members of the center, see <a href="#other_talks">below</a>.
 		<h3>Upcoming seminars</h3>
 		<ul>
-			<li id="13-10-2021">13/10/2021, 5 pm<br/>
-			Anastasios Stefanou: Persistent Homology of Phylogenetic Networks<br/>
-
-			<b>Abstract:</b> We devise a hierarchical representation of phylogenetic networks over a set of taxa X, called the cliquegram, which generalizes the dendrogram representation of phylogenetic tree ultrametrics. We show that cliquegrams form a lattice. Furthermore, we show that the cliquegram lattice model is a faithful model for solving the Phylogenetic Network Reconstruction Problem (PNRP): Given a set of trees there is a unique minimal network that contains them. Moreover, we develop a zigzag persistent homology theory for cliquegrams relative to a choice of a taxon x in X, called taxa-decorated persistent homology. Generalizations of these ideas (i.e. the cluttergram) from the setting of networks to the setting of filtrations are also developed. The algorithms implementing those constructions are discussed and their implementations are provided in Python. </li>
-		
-			<li id="20-10-2021">20/10/2021<br/>
-			Jan F. Senge: Topological descriptors for surface roughness of shot peened surfaces<br/>
 			
-
-			<b>Abstract:</b> Surface topography and roughness evaluation plays an important role in many problems such as friction, contact deformation or coat adhesion. Impact surface treatments can be used to improve the properties of the treated surface in the cases mentioned. Different roughness parameters like the arithmetic average height deviation, root mean square height or skewness are used to describe the topography of a surface and constitute the most used features to describe changes occurred during impact treatment. Depending on the surface treatment process considered, standard roughness parameters may struggle to exhibit differences between surface samples of the same material at different stages of the process. As an extension the work done to improve existing methods and find new descriptors, we consider methods from computational topology, namely persistent homology to capture meaningful geometric features of the surface and use that to construct new surface roughness parameters better able to distinguish surface samples. Furthermore, invariants such as the persistence diagram have been studied extensively in the last years and provide a rich structure which can be exploited using a plethora of different machine learning techniques. In the talk, I give an introduction into existing standards for surface roughness measurement and compare how well  persistence-based parameters perform for classification and clustering tasks in the case of the shot peening surface treatment process opposed to conventional roughness parameters mentioned in these standards.</li>
 			
+			<li id="??-11-2021">??/11/2021<br/>
+			Niklas Hellmer: tba<br/>
+
+			<b>Abstract:</b> tba</li>
+		<h3>Past seminars</h3>
+		<ul>
+			<li id="03-11-2021">03/11/2021, 2:30 pm<br/>
+			Wolfram Bosbach: TDA in medical engineering<br/>
+
+			<b>Abstract:</b>Medical research can greatly benefit from advanced mathematical methods. There are patterns of higher order in human anatomy which are not intuitively recognisable by the human eye. Trabecular bone, neuronal networks in the brain, or lung bronchi exhibit interconnectivities which allow analyses about their physiological or pathological state. Numerical finite elements can extend pattern analyses and give insights into mechanical tissue behaviour. Radiology is the medical field which can provide 3-dimensional imaging of anatomical body parts. 
+Funded by the DFG, we are now working towards applying topological data analysis (TDA) to existing and new classification problems. 
+<br/>
+Funding: Deutsche Forschungsgemeinschaft (DFG) grant no-BO-4961/11</li>
+
+<li id="03-11-2021">03/11/2021<br/>
+			Davide Gurnari: Distributed algorithms for Euler Characteristic Curves<br/>
+
+			<b>Abstract:</b> The Euler characteristic of a simplicial complex is the alternate sum of its Betti number, or equivalently the alternating sum of the number of simplices of following dimensions. For a filtered complex the Euler Characteristic Curve is a function that assigns an Euler number to each filtration level. ECCs are closely related to persistence diagrams via the fundamental theorem of persistent homology and stability with respect to the 1-Wasserstein distance can be proven under certain conditions.
+The first part of this talk we will introduce the concept of ECC and prove its stability with respect to the 1-Wasserstein distance. In the second part we will present new techniques to compute the ECC of filtered Vietoris-Rips complexes. By following a distributed approach, the contributions to the ECC can be computed locally without having to explicitly build up the whole complex. This allows us to significatively reduce both time and memory requirements, giving us the opportunity to tackle much larger datasets compared to, for instance, persistent homology. An implementation of such algorithms is available as a scikit-learn-compatible Python package. Finally, we will discuss how such ideas and algorithms can be adapted to work in the multiparameter persistence setting.</li>
+
 			<li id="27-10-2021">27/10/2021<br/>
 			Micha&#322; Lipi&#324;ski: Morse-Conley-Forman theory for generalized combinatorial multivector fields on finite topological spaces<br/>
 
@@ -100,27 +111,24 @@ Our generalization involves three fundamental changes, which will be explained d
 With the new settings, we define combinatorial counterparts of multiple objects from the classical theory of dynamical systems, among others: isolated invariant set, index pair, Conley index, limit set, attractor, or Morse decomposition. We also show that the desirable properties as additivity of a Conley index and Morse inequalities hold.
 Furthermore, we use persistent homology to study the robustness of the structure of Morse sets. In particular, we construct a zigzag persistence module for Morse decomposition for multivector fields.
 Finally, we will present some numerical experiments based on the presented theory.</li>
-			
-			<li id="03-11-2021">03/11/2021<br/>
-			Davide Gurnari: Distributed algorithms for Euler Characteristic Curves<br/>
 
-			<b>Abstract:</b> The Euler characteristic of a simplicial complex is the alternate sum of its Betti number, or equivalently the alternating sum of the number of simplices of following dimensions. For a filtered complex the Euler Characteristic Curve is a function that assigns an Euler number to each filtration level. ECCs are closely related to persistence diagrams via the fundamental theorem of persistent homology and stability with respect to the 1-Wasserstein distance can be proven under certain conditions.
-The first part of this talk we will introduce the concept of ECC and prove its stability with respect to the 1-Wasserstein distance. In the second part we will present new techniques to compute the ECC of filtered Vietoris-Rips complexes. By following a distributed approach, the contributions to the ECC can be computed locally without having to explicitly build up the whole complex. This allows us to significatively reduce both time and memory requirements, giving us the opportunity to tackle much larger datasets compared to, for instance, persistent homology. An implementation of such algorithms is available as a scikit-learn-compatible Python package. Finally, we will discuss how such ideas and algorithms can be adapted to work in the multiparameter persistence setting.</li>
+			<li id="20-10-2021">20/10/2021<br/>
+			Jan F. Senge: Topological descriptors for surface roughness of shot peened surfaces<br/>
 			
-			<li id="03-11-2021">03/11/2021, 2:30 pm<br/>
-			Wolfram Bosbach: TDA in medical engineering<br/>
 
-			<b>Abstract:</b>Medical research can greatly benefit from advanced mathematical methods. There are patterns of higher order in human anatomy which are not intuitively recognisable by the human eye. Trabecular bone, neuronal networks in the brain, or lung bronchi exhibit interconnectivities which allow analyses about their physiological or pathological state. Numerical finite elements can extend pattern analyses and give insights into mechanical tissue behaviour. Radiology is the medical field which can provide 3-dimensional imaging of anatomical body parts. 
-Funded by the DFG, we are now working towards applying topological data analysis (TDA) to existing and new classification problems. 
-<br/>
-Funding: Deutsche Forschungsgemeinschaft (DFG) grant no-BO-4961/11</li>
+			<b>Abstract:</b> Surface topography and roughness evaluation plays an important role in many problems such as friction, contact deformation or coat adhesion. Impact surface treatments can be used to improve the properties of the treated surface in the cases mentioned. Different roughness parameters like the arithmetic average height deviation, root mean square height or skewness are used to describe the topography of a surface and constitute the most used features to describe changes occurred during impact treatment. Depending on the surface treatment process considered, standard roughness parameters may struggle to exhibit differences between surface samples of the same material at different stages of the process. As an extension the work done to improve existing methods and find new descriptors, we consider methods from computational topology, namely persistent homology to capture meaningful geometric features of the surface and use that to construct new surface roughness parameters better able to distinguish surface samples. Furthermore, invariants such as the persistence diagram have been studied extensively in the last years and provide a rich structure which can be exploited using a plethora of different machine learning techniques. In the talk, I give an introduction into existing standards for surface roughness measurement and compare how well  persistence-based parameters perform for classification and clustering tasks in the case of the shot peening surface treatment process opposed to conventional roughness parameters mentioned in these standards.</li>
 			
-			<li id="10-11-2021">10/11/2021<br/>
-			Niklas Hellmer: tba<br/>
 
-			<b>Abstract:</b> tba</li>
-		<h3>Past seminars</h3>
-		<ul>
+			<li id="13-10-2021">13/10/2021, 5 pm<br/>
+			Anastasios Stefanou: Persistent Homology of Phylogenetic Networks<br/>
+
+			<b>Abstract:</b> We devise a hierarchical representation of phylogenetic networks over a set of taxa X, called the cliquegram, which generalizes the dendrogram representation of phylogenetic tree ultrametrics. We show that cliquegrams form a lattice. Furthermore, we show that the cliquegram lattice model is a faithful model for solving the Phylogenetic Network Reconstruction Problem (PNRP): Given a set of trees there is a unique minimal network that contains them. Moreover, we develop a zigzag persistent homology theory for cliquegrams relative to a choice of a taxon x in X, called taxa-decorated persistent homology. Generalizations of these ideas (i.e. the cluttergram) from the setting of networks to the setting of filtrations are also developed. The algorithms implementing those constructions are discussed and their implementations are provided in Python. </li>
+		
+			
+			
+			
+						
+			
 			<li id="02-12-2020">02/12/2020<br/>
 			Artem Dudko: On computability and computational complexity of Julia sets.<br/>
 
