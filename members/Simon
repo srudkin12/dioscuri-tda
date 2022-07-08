@@ -1,0 +1,112 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Pawe&#322; D&#322;otko - Director of Dioscuri Centre in TDA</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="Dioscuri TDA" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="../style/style.css" title="style" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <div id="logo_text">
+          <!-- class="logo_colour", allows you to change the colour of the text -->
+          <h1><a href="../index.html">Dioscuri Centre in<span class="logo_colour"> <br /> Topological Data Analysis</span></a></h1>
+          <h2>Real world problems. Rigorous mathematics. Efficient solutions.</h2>
+        </div>
+      </div>
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
+          <li class="selected"><a href="../index.html">Home</a></li>
+		  <li><a href="../members.html">Members</a></li>
+          <li><a href="../publications.html">Publications</a></li>
+          <li><a href="../conferences.html">Conferences</a></li>
+		  <li><a href="../seminars.html">Seminars</a></li>
+          <li><a href="../outreach.html">Outreach</a></li>
+          <li><a href="../positions.html">Positions</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div class="sidebar">
+        <!-- insert your sidebar items here -->
+        <h3>Useful Links</h3>
+        <ul>
+          <li><a href="https://www.impan.pl/">Institute of Mathematics</a></li>
+          <li><a href="https://www.alta.uni-bremen.de/">ALTA Institute</a></li>
+          <li><a href="https://www.mpg.de/en">Max Planck Society</a></li>
+        </ul>
+        <a class="twitter-timeline" data-tweet-limit="3"
+            data-dnt="True"
+            href="https://twitter.com/DioscuriTda?ref_src=twsrc%5Etfw">Tweets by DioscuriTda</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+
+      <div id="content">
+		<h1>Simon Rudkin</h1>
+                <img src="pawel/pawel_dlotko.JPG" alt="Simon Rudkin." style="float:right;width:270px;height:500px;">
+                I am a Senior Lecturer in Data Science at the University of Manchester affiliated with the Institute of Data Science and Artificial Intelligence and the Department of Social Statistics. Previously I have held positions in Economics at Swansea University, the University of Liverpool and University of Manchester. I obtained my PhD in Economics from the University of Manchester in 2008.
+
+                <br>
+                <br>
+                My research focuses on the messages in data which are hidden in plain sight. Prior to working with topological data analysis (TDA) my work considered distributional regression and treatment effects. Recent papers apply TDA to analysis of stock returns, credit risk and Brexit voting behaviours. My primary research focus is demonstrating the strengths of TDA within Economics and Finance, establishing the relationships between TDA metrics and understood concepts in the discipline literatures.
+                <br>
+                
+
+
+		</p>
+
+		<h4>How to find me?</h4>
+		University of Manchester<br>
+		Humanities Bridgford Street<br>
+		Oxford Road<br>
+    Manchester<br>
+    M13 9PM<br>
+    United Kingdom<br>
+		<my-email data-user="simon.rudkin" data-domain="manchester.ac.uk">@</my-email><br>
+		<a href="https://orcid.org/0000-0001-8622-7318">ORCID</a>
+                <br>
+                <a href="https://www.linkedin.com/in/simon-rudkin-1775b3180/">Linkedin </a>
+
+                </p>
+
+		<h4>Publications</h4>
+                <a href = https://scholar.google.com/citations?hl=en&user=F-5-ezAAAAAJ&view_op=list_works> Google Scholar</a>
+                
+               
+
+
+
+
+      </div>
+    </div>
+    <div id="content_footer"></div>
+    <div id="footer">
+      Copyright &copy; colour_blue | <a href="http://validator.w3.org/check?uri=referer">HTML5</a> | <a href="http://jigsaw.w3.org/css-validator/check/referer">CSS</a> | <a href="http://www.html5webtemplates.co.uk">design from HTML5webtemplates.co.uk</a>
+    </div>
+  </div>
+<!-- Default Statcounter code for Dioscuri-tda.org
+https://dioscuri-tda.org/ -->
+<script type="text/javascript">
+var sc_project=12325532;
+var sc_invisible=0;
+var sc_security="a77028f7";
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - StatCounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12325532/0/a77028f7/0/"
+alt="Web Analytics Made Easy -
+StatCounter"></a></div></noscript>
+<!-- End of Statcounter Code -->
+</body>
+</html>
