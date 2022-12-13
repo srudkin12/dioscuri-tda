@@ -1,8 +1,1 @@
-
-BM_plots/.DS_Store
-BM_plots/HOMFLYPT/.DS_Store
-BM_plots/jones_upto_15/.DS_Store
-BM_plots/jones_upto_17_A/.DS_Store
-BM_plots/khovanov_upto_15n/.DS_Store
-BM_plots/mapper_on_BM/.DS_Store
-BM_plots/mapper_on_BM/KHOV/.DS_Store
+*.DS_Store
